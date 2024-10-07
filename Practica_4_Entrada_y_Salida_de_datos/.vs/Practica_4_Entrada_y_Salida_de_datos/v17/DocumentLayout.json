@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25-1\\Practica_4_Entrada_y_Salida_de_datos\\",
+  "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\F_Programacion_zap1179_25_2\\Practica_4_Entrada_y_Salida_de_datos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57D080D5-647D-4183-8F0D-857D8C414C53}|Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos.vcxproj|C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25-1\\Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{57D080D5-647D-4183-8F0D-857D8C414C53}|Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos.vcxproj|C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\F_Programacion_zap1179_25_2\\Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{57D080D5-647D-4183-8F0D-857D8C414C53}|Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos.vcxproj|solutionrelative:Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Practica_4_Entrada_y_Salida_de_datos.cpp",
-              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25-1\\Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos.cpp",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\F_Programacion_zap1179_25_2\\Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos.cpp",
               "RelativeDocumentMoniker": "Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos.cpp",
-              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25-1\\Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos.cpp",
+              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\F_Programacion_zap1179_25_2\\Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos.cpp",
               "RelativeToolTip": "Practica_4_Entrada_y_Salida_de_datos\\Practica_4_Entrada_y_Salida_de_datos.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAAACkAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-04T14:45:22.253Z",
               "EditorCaption": ""
