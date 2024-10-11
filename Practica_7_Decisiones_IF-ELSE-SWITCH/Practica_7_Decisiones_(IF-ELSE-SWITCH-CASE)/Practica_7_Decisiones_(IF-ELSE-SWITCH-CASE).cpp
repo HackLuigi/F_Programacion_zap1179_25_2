@@ -48,7 +48,7 @@ int main()
         }
         else
         {
-            std::cout << "Las eliminatorias de las eliminatorias directas son muy sencillas, ya que cada ronday pelea que pase se eliminara un peleador, asi que en este caso, habrian" << peleadores + 1 << "peleas, ya que tambien estaria la batalla final entre los 2 peleadores que quedaron";
+            std::cout << "Las eliminatorias de las eliminatorias directas son muy sencillas, ya que cada ronda y pelea que pase se eliminara un peleador, asi que en este caso, habrian " << peleadores - 1 << " peleas, ya que tambien estaria la batalla final entre los 2 peleadores que quedaron";
             break;
         }
         
@@ -69,7 +69,7 @@ int main()
         {
             std::cout << "La eliminacion de los grupos o tambien llamados pools, es un poco extraña, pero es mas que nada una mezcla entre los royal rumbles y las eliminatorias directas, asi que primero tendriamos que poner a pelear a todos los peleadores en un rumble, hasta que solo queden la mitad, en este caso " << peleadores / 2 << std::endl;
             resultado = peleadores / 2;
-            std::cout << "Y ahora, con eso, solo se hace las eliminatorias directas, en las que tendrian que hacer" << resultado + 1 << ", espero que tenga un buen dia";
+            std::cout << "Y ahora, con eso, solo se hace las eliminatorias directas, en las que tendrian que hacer" << resultado - 1 << ", espero que tenga un buen dia";
             break;
         }
         

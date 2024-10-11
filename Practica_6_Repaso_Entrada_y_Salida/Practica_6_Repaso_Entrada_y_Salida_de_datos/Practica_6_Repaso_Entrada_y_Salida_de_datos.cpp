@@ -9,6 +9,8 @@ int main()
 {
     int decision;
     int Edad;
+    bool Spam = false;
+    bool DLC = false;
     std::string usuario = "";
     std::string contra = "";
     std::string new_usuario = "";
@@ -16,59 +18,79 @@ int main()
     std::string cuenta_usuario = "Noobmaster69";
     std::string contra_usuario = "Vengador_unidos123";
     setlocale(LC_ALL, "es_MX.UTF-8");
-    std::cout << "Bienvenido a Albion Online ñ, el MMORPG no lineal donde no tienes un camino prefijado ¿Te gustaria iniciar sesion (2) o crear una nueva cuenta (1)?" << std::endl;
-    std::cin >> decision;
-    switch (decision)
+    std::cout << "Sarai esta a 5 kilometros y quiere conocerte" << std::endl;
+    std::cin >> Spam;
+    if (Spam == true)
     {
-    case 1:
-        std::cout << "Ok, ingrese porfavor un nuevo usuario" << std::endl;
-        std::cin >> new_usuario;
-        if (new_usuario == cuenta_usuario)
+        std::cout << "Redireccionando, doxxeando e infectando computadora";
+    }
+    else
+    {
+        std::cout << "Bienvenido a Albion Online ñ, el MMORPG no lineal donde no tienes un camino prefijado ¿Te gustaria iniciar sesion (2) o crear una nueva cuenta (1)?" << std::endl;
+        std::cin >> decision;
+        switch (decision)
         {
-            std::cout << "Este usuario ya ha sido elegido, porfavor, eliga otro";
-            break;
-        }
-        else
-        {
-            std::cout << "Eliga una contraseña porfavor" << std::endl;
-            std::cin >> contra_new_usuario;
-            std::cout << "Ya casi esta, solo necesitamos que digas tu edad y estaras listo para el juego"  << std::endl;
-            std::cin >> Edad;
-            if (Edad < 18)
+        case 1:
+            std::cout << "Ok, ingrese porfavor un nuevo usuario" << std::endl;
+            std::cin >> new_usuario;
+            if (new_usuario == cuenta_usuario)
             {
-                std::cout << "Este juego no esta permitido para personas menores de 18 años, asi que no puede crear una cuenta, una disculpa";
-                break;
-            }
-            else 
-            {
-                std::cout << "Bienvenido a Albion online " << new_usuario << " y preparate para tener  una de las aventuras mas grandes de tu vida";
-                break;
-            }
-        }
-    case 2:
-        std::cout << "Ingrese su usuario" << std::endl;
-        std::cin >> usuario;
-        if (usuario == cuenta_usuario)
-        {
-            std::cout << "Bienvenido " << cuenta_usuario << " ingresa tu contraseña" << std::endl;
-            std::cin >> contra;
-            if (contra == contra_usuario)
-            {
-                std::cout << "Bienvenido otra vez " << cuenta_usuario << " y preparate para volver a tu aventura";
+                std::cout << "Este usuario ya ha sido elegido, porfavor, eliga otro";
                 break;
             }
             else
             {
-                std::cout << "Contraseña incorrecta, cerrando para tomar medidas de seguridad";
+                std::cout << "Eliga una contraseña porfavor" << std::endl;
+                std::cin >> contra_new_usuario;
+                std::cout << "Ya casi esta, solo necesitamos que digas tu edad y estaras listo para el juego" << std::endl;
+                std::cin >> Edad;
+                if (Edad < 18)
+                {
+                    std::cout << "Este juego no esta permitido para personas menores de 18 años, asi que no puede crear una cuenta, una disculpa";
+                    break;
+                }
+                else
+                {
+                    std::cout << "Antes de empezar ¿Te gustaria desbloquear la edicion digital deluxe director's cut ultimate edition?" << std::endl;
+                    std::cin >> DLC;
+                        if (DLC == true)
+                        {
+                            std::cout << "Redireccionando a la pagina de steam para comprar DLC";
+                            break;
+                        }
+                        else
+                        {
+                            std::cout << "Bienvenido a Albion online " << new_usuario << " y preparate para tener  una de las aventuras mas grandes de tu vida";
+                            break;
+                        }
+                }
+            }
+        case 2:
+            std::cout << "Ingrese su usuario" << std::endl;
+            std::cin >> usuario;
+            if (usuario == cuenta_usuario)
+            {
+                std::cout << "Bienvenido " << cuenta_usuario << " ingresa tu contraseña" << std::endl;
+                std::cin >> contra;
+                if (contra == contra_usuario)
+                {
+                    std::cout << "Bienvenido otra vez " << cuenta_usuario << " y preparate para volver a tu aventura";
+                    break;
+                }
+                else
+                {
+                    std::cout << "Contraseña incorrecta, cerrando para tomar medidas de seguridad";
+                    break;
+                }
+            }
+            else
+            {
+                std::cout << "Usuario no reconocido";
                 break;
             }
         }
-        else
-        {
-            std::cout << "Usuario no reconocido";
-            break;
-        }
     }
+    
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
