@@ -13,17 +13,17 @@ int main()
     int Decision;
     setlocale(LC_ALL, "es_MX.UTF-8");
     std::cout << "Buenos dias, que le gustaria hacer?" << std::endl;
-    std::cout << "Eliga lo que le gustaria hacer" << std::endl;
+    std::cout << "Eliga lo que le gustaria hacer 1-while 2-do while 3-for" << std::endl;
     std::cin >> Decision;
     switch (Decision)
     {
     case 1:
-        while (Numero_while <= 0);
+        while (Numero_while <= 100)
         {
-            system("Color 4c");
+            system("Color 1c");
             system("cls");
-            Numero++;
-            std::cout << "Empezando cuenta ascendente de " << Numero << std::endl;           
+            Numero_while++;
+            std::cout << "Empezando cuenta ascendente de " << Numero_while << std::endl;           
         }
         break;
 
