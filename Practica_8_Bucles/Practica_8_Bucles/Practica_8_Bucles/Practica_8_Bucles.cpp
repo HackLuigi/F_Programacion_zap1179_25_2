@@ -18,7 +18,7 @@ int main()
     switch (Decision)
     {
     case 1:
-        while (Numero_while <= 100);
+        while (Numero_while <= 0);
         {
             system("Color 4c");
             system("cls");
