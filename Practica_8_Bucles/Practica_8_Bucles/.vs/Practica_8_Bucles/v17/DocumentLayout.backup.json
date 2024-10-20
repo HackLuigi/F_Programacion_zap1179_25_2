@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\F_Programacion_zap1179_25_2\\Practica_8_Bucles\\Practica_8_Bucles\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Tarea\\Visual studio\\F_Programacion_zap1179_25_2\\Practica_8_Bucles\\Practica_8_Bucles\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9ED7B69A-19A9-47A9-A1A8-1267257E13ED}|Practica_8_Bucles\\Practica_8_Bucles.vcxproj|C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\F_Programacion_zap1179_25_2\\Practica_8_Bucles\\Practica_8_Bucles\\Practica_8_Bucles\\Practica_8_Bucles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9ED7B69A-19A9-47A9-A1A8-1267257E13ED}|Practica_8_Bucles\\Practica_8_Bucles.vcxproj|C:\\Users\\DELL\\Desktop\\Tarea\\Visual studio\\F_Programacion_zap1179_25_2\\Practica_8_Bucles\\Practica_8_Bucles\\Practica_8_Bucles\\Practica_8_Bucles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9ED7B69A-19A9-47A9-A1A8-1267257E13ED}|Practica_8_Bucles\\Practica_8_Bucles.vcxproj|solutionrelative:Practica_8_Bucles\\Practica_8_Bucles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Practica_8_Bucles.cpp",
-              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\F_Programacion_zap1179_25_2\\Practica_8_Bucles\\Practica_8_Bucles\\Practica_8_Bucles\\Practica_8_Bucles.cpp",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Tarea\\Visual studio\\F_Programacion_zap1179_25_2\\Practica_8_Bucles\\Practica_8_Bucles\\Practica_8_Bucles\\Practica_8_Bucles.cpp",
               "RelativeDocumentMoniker": "Practica_8_Bucles\\Practica_8_Bucles.cpp",
-              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\F_Programacion_zap1179_25_2\\Practica_8_Bucles\\Practica_8_Bucles\\Practica_8_Bucles\\Practica_8_Bucles.cpp",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Tarea\\Visual studio\\F_Programacion_zap1179_25_2\\Practica_8_Bucles\\Practica_8_Bucles\\Practica_8_Bucles\\Practica_8_Bucles.cpp",
               "RelativeToolTip": "Practica_8_Bucles\\Practica_8_Bucles.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABeAAAA",
+              "ViewState": "AgIAABcAAAAAMzMzMzMbwBAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-18T02:33:27.245Z",
               "EditorCaption": ""

@@ -9,12 +9,13 @@ using namespace std;
 
 int main()
 {
+    bool Continuar = true;
     int Numero = 100;
     int Numero_while = 0;
     int Decision;
     setlocale(LC_ALL, "es_MX.UTF-8");
-    std::cout << "Eliga lo que le gustaria hacer 1-cuenta ascendente 2-vidas" << std::endl;
-    std::cin >> Decision;
+    cout << "Eliga lo que le gustaria hacer 1-cuenta ascendente 2-vidas" << endl;
+    cin >> Decision;
     switch (Decision)
     {
     case 1:
@@ -23,18 +24,31 @@ int main()
             system("Color 1c");
             system("cls");
             Numero_while++;
-            std::cout << "Empezando cuenta ascendente de " << Numero_while << std::endl;
+            cout << "Empezando cuenta ascendente de " << Numero_while << endl;
         }
         break;
 
     case 2:
-        for (int b = 5; b > 0; b--)
+        while (Continuar == true)
         {
-            system("cls");
-            std::cout << "Tienes " << b << " vidas, oprime el boton correcto y podras ganar... \n";
-            system("Color 2d");
-            system("Color 4c");
-            std::cout << "Jaja, te moriste por manco";
+            for (int v = 5; v > 0; v--)
+            {
+                system("cls");
+                cout << "Tienes " << v << " vidas, oprime un boton en especifico para ganar... " << endl;
+                system("Color 1f");
+                cout << "Presiona un boton para activar..." << endl;
+                system("pause");
+                if (v < 2)
+                {
+                    cout << "JAJAJA! TE MORISTE POR MANCO!" << endl;
+                    cout << "Continuar manco? (1 si 0 no)" << endl;
+                    cin >> Continuar;
+                    if (Continuar == false)
+                    {
+                        cout << "Bueno, tu te lo pierdes manco";
+                    }
+                }
+            }
         }
         break;
     }
