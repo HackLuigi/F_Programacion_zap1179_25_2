@@ -2,10 +2,42 @@
 //
 
 #include <iostream>
+#include <math.h>
+#include <locale>
+#include <cstdlib>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int Numero = 100;
+    int Numero_while = 0;
+    int Decision;
+    setlocale(LC_ALL, "es_MX.UTF-8");
+    std::cout << "Eliga lo que le gustaria hacer 1-cuenta ascendente 2-vidas" << std::endl;
+    std::cin >> Decision;
+    switch (Decision)
+    {
+    case 1:
+        while (Numero_while <= 100)
+        {
+            system("Color 1c");
+            system("cls");
+            Numero_while++;
+            std::cout << "Empezando cuenta ascendente de " << Numero_while << std::endl;
+        }
+        break;
+
+    case 2:
+        for (int b = 5; b > 0; b--)
+        {
+            system("cls");
+            std::cout << "Tienes " << b << " vidas, oprime el boton correcto y podras ganar... \n";
+            system("Color 2d");
+            system("Color 4c");
+            std::cout << "Jaja, te moriste por manco";
+        }
+        break;
+    }
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
