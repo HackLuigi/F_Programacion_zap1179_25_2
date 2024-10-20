@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\Practica_9_Condicionales\\",
+  "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\F_Programacion_zap1179_25_2\\Practica_9_Condicionales\\Practica_9_Condicionales\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31C4017A-66B0-4ED9-9FB5-CFB7181B97ED}|Practica_9_Condicionales\\Practica_9_Condicionales.vcxproj|C:\\Users\\DELL\\source\\repos\\Practica_9_Condicionales\\Practica_9_Condicionales\\Practica_9_Condicionales.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{31C4017A-66B0-4ED9-9FB5-CFB7181B97ED}|Practica_9_Condicionales\\Practica_9_Condicionales.vcxproj|C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\F_Programacion_zap1179_25_2\\Practica_9_Condicionales\\Practica_9_Condicionales\\Practica_9_Condicionales\\Practica_9_Condicionales.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{31C4017A-66B0-4ED9-9FB5-CFB7181B97ED}|Practica_9_Condicionales\\Practica_9_Condicionales.vcxproj|solutionrelative:Practica_9_Condicionales\\Practica_9_Condicionales.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,21 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Practica_9_Condicionales.cpp",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Practica_9_Condicionales\\Practica_9_Condicionales\\Practica_9_Condicionales.cpp",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\F_Programacion_zap1179_25_2\\Practica_9_Condicionales\\Practica_9_Condicionales\\Practica_9_Condicionales\\Practica_9_Condicionales.cpp",
               "RelativeDocumentMoniker": "Practica_9_Condicionales\\Practica_9_Condicionales.cpp",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Practica_9_Condicionales\\Practica_9_Condicionales\\Practica_9_Condicionales.cpp",
+              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\F_Programacion_zap1179_25_2\\Practica_9_Condicionales\\Practica_9_Condicionales\\Practica_9_Condicionales\\Practica_9_Condicionales.cpp",
               "RelativeToolTip": "Practica_9_Condicionales\\Practica_9_Condicionales.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAOAAAAAAAAAA==",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAFsAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-18T06:32:03.879Z",
               "EditorCaption": ""

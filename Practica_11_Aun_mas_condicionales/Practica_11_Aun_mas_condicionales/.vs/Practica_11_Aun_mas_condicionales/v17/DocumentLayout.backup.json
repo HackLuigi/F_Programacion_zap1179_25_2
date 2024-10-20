@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Tarea\\Visual studio\\F_Programacion_zap1179_25_2\\Practica_11_Aun_mas_condicionales\\Practica_11_Aun_mas_condicionales\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72E5831C-1717-47A4-A59B-ED8A614F8FC0}|Practica_11_Aun_mas_condicionales\\Practica_11_Aun_mas_condicionales.vcxproj|C:\\Users\\DELL\\Desktop\\Tarea\\Visual studio\\F_Programacion_zap1179_25_2\\Practica_11_Aun_mas_condicionales\\Practica_11_Aun_mas_condicionales\\Practica_11_Aun_mas_condicionales\\Practica_11_Aun_mas_condicionales.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72E5831C-1717-47A4-A59B-ED8A614F8FC0}|Practica_11_Aun_mas_condicionales\\Practica_11_Aun_mas_condicionales.vcxproj|solutionrelative:Practica_11_Aun_mas_condicionales\\Practica_11_Aun_mas_condicionales.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Practica_11_Aun_mas_condicionales.cpp",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Tarea\\Visual studio\\F_Programacion_zap1179_25_2\\Practica_11_Aun_mas_condicionales\\Practica_11_Aun_mas_condicionales\\Practica_11_Aun_mas_condicionales\\Practica_11_Aun_mas_condicionales.cpp",
+              "RelativeDocumentMoniker": "Practica_11_Aun_mas_condicionales\\Practica_11_Aun_mas_condicionales.cpp",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Tarea\\Visual studio\\F_Programacion_zap1179_25_2\\Practica_11_Aun_mas_condicionales\\Practica_11_Aun_mas_condicionales\\Practica_11_Aun_mas_condicionales\\Practica_11_Aun_mas_condicionales.cpp*",
+              "RelativeToolTip": "Practica_11_Aun_mas_condicionales\\Practica_11_Aun_mas_condicionales.cpp*",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAJwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-19T08:53:25.438Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
