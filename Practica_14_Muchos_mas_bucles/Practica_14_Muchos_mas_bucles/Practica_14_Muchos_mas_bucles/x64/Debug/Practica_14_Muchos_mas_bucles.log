@@ -1,0 +1,5 @@
+﻿  Practica_14_Muchos_mas_bucles.cpp
+C:\Users\DELL\Desktop\Tarea\Visual studio\F_Programacion_zap1179_25_2\Practica_14_Muchos_mas_bucles\Practica_14_Muchos_mas_bucles\Practica_14_Muchos_mas_bucles\Practica_14_Muchos_mas_bucles.cpp(66,23): warning C4552: "*": el resultado de la expresión no se usa
+C:\Users\DELL\Desktop\Tarea\Visual studio\F_Programacion_zap1179_25_2\Practica_14_Muchos_mas_bucles\Practica_14_Muchos_mas_bucles\Practica_14_Muchos_mas_bucles\Practica_14_Muchos_mas_bucles.cpp(16,9): warning C4101: 'cero': variable local sin referencia
+C:\Users\DELL\Desktop\Tarea\Visual studio\F_Programacion_zap1179_25_2\Practica_14_Muchos_mas_bucles\Practica_14_Muchos_mas_bucles\Practica_14_Muchos_mas_bucles\Practica_14_Muchos_mas_bucles.cpp(15,9): warning C4101: 'multi': variable local sin referencia
+  Practica_14_Muchos_mas_bucles.vcxproj -> C:\Users\DELL\Desktop\Tarea\Visual studio\F_Programacion_zap1179_25_2\Practica_14_Muchos_mas_bucles\Practica_14_Muchos_mas_bucles\x64\Debug\Practica_14_Muchos_mas_bucles.exe
