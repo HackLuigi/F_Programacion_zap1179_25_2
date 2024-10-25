@@ -13,13 +13,13 @@ int main()
     int edad;
     int edad_u = 70;
     string sexo;
-    string sexo_u = "M";
+    string sexo_u = "Mujer";
     string Contra_u = "XHA";
     string Contra;
     while (ingresar == false)
     {
         system("cls");
-        cout << "Ok, creo que ya tienes anotada la contraseña verdad? Si no aqui te la vuelvo a escribir: XHA. Lo demas es muy obvio, tienes 70, eres Mujer o solo M y tienes un perro, buena suerte" << endl;
+        cout << "Ok, creo que ya tienes anotada la contraseña verdad? Si no aqui te la vuelvo a escribir: XHA. Lo demas es muy obvio, tienes 70, eres Mujer y tienes un perro, buena suerte" << endl;
         cout << "Porfavor escriba la contraseña para ingresar al fornais" << endl;
         cin >> Contra;
         if (Contra == Contra_u)
@@ -47,13 +47,13 @@ int main()
                 }
                 else
                 {
-                    cout << "Incorrecto, cerrando para tomar medidas de seguridad";
+                    cout << "Incorrecto, cerrando para tomar medidas de seguridad por agregar letras";
                     ingresar = true;
                 }
             }
             else
             {
-                cout << "incorrecto, cerrando para tomar medidas de seguridad";
+                cout << "incorrecto, cerrando para tomar medidas de seguridad por agregar numeros";
                 ingresar = true;
             }
         }
