@@ -1,88 +1,72 @@
-// Practica_14_Muchos_mas_bucles.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
+// Practica_10_Mas_condicionales.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí
 
 #include <iostream>
 #include <locale>
-#include <math.h>
 #include <cstdlib>
 using namespace std;
 
 int main()
 {
-    int mil = 1000;
-    int miluno = 1000;
-    int mildos = 1000;
-    int cien = 100;
-    int multi;
-    int cero;
-    int diez = 10;
-    int decision;
-    bool repeticion = true;
-    while (repeticion == true)
+    setlocale(LC_ALL, "es_MX.UTF-8");
+    bool ingresar = false;
+    bool mascota = false;
+    int edad;
+    int edad_u = 70;
+    string sexo;
+    string sexo_u = "Mujer";
+    string Contra_u = "XHA";
+    string Contra;
+    while (ingresar == false)
     {
-        cout << "Eliga que hacer 1. 1000 a 0 2. 0 a 100 (clicker) 3. 10x10 4. 0 a 100" << endl;
-        cin >> decision;
-        switch (decision)
+        system("cls");
+        cout << "Ok, creo que ya tienes anotada la contraseña verdad? Si no aqui te la vuelvo a escribir: XHA. Lo demas es muy obvio, tienes 70, eres Mujer y tienes un perro, buena suerte" << endl;
+        cout << "Porfavor escriba la contraseña para ingresar al fornais" << endl;
+        cin >> Contra;
+        if (Contra == Contra_u)
         {
-        case 1:
-            while (mil > 0)
+            cout << "Escriba su sexo porfavor" << endl;
+            cin >> sexo;
+            if (sexo == sexo_u)
             {
-                mil--;
-                cout << "Haciendo cuenta regresiva en " << mil;
-                system("cls");
-            }
-            do
-            {
-                miluno--;
-                cout << "Haciendo cuenta regresiva en " << miluno;
-                system("cls");
-            } while (miluno > 0);
-            for (int mel = 1000; mel > 0; mel--)
-            {
-                cout << "Haciendo cuenta regresiva en " << mel;
-                system("cls");
-                cout << "Regresar al menu? (1 si 0 no)" << endl;
-                cin >> repeticion;
-            }
-            break;
-
-        case 2:
-            for (int clicker = 0; clicker < 100; clicker++)
-            {
-                system("cls");
-                cout << "Hechele ganas mijo, llevas " << clicker << " clicks, se que puedes mas" << endl;
-                system("pause");
-                if (clicker >= 99)
+                cout << "Porfavor escriba su edad" << endl;
+                cin >> edad;
+                if (edad == edad_u)
                 {
-                    cout << "Bien hecho!" << endl;
-                    cout << "Regresar al menu? (1 si 0 no)" << endl;
-                    cin >> repeticion;
+                    cout << "Y ya para finalizar, toca la pregunta de seguridad ¿Tiene un perro o un gato? (1 para gato y 0 para perro)" << endl;
+                    cin >> mascota;
+                    if (mascota == false)
+                    {
+                        cout << "Muy bien señora, disfrute de su partida de fornais";
+                        ingresar = true;
+                    }
+                    else
+                    {
+                        cout << "Incorrecto, cerrando para tomar medidas de seguridad";
+                        ingresar = true;
+                    }
+                }
+                else
+                {
+                    cout << "Incorrecto, cerrando para tomar medidas de seguridad por agregar letras";
+                    ingresar = true;
                 }
             }
-            break;
-
-        case 3:
-            while (diez <= 100)
+            else
             {
-                diez * 2;
-                system("cls");
-                cout << diez;
+                cout << "incorrecto, cerrando para tomar medidas de seguridad por agregar numeros";
+                ingresar = true;
             }
-        case 4:
-            while (cien > 0)
-            {
-                cien--;
-                system("cls");
-                cout << "Haciendo cuenta regresiva en " << cien << endl;
-            }
-            break;
+        }
+        else
+        {
+            cout << "No se reconoce la contraseña, intentelo denuevo" << endl;
+            system("pause");
         }
     }
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
 // Depurar programa: F5 o menú Depurar > Iniciar depuración
-
 // Sugerencias para primeros pasos: 1. Use la ventana del Explorador de soluciones para agregar y administrar archivos
 //   2. Use la ventana de Team Explorer para conectar con el control de código fuente
 //   3. Use la ventana de salida para ver la salida de compilación y otros mensajes
