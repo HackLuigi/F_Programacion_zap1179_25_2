@@ -22,48 +22,47 @@ int main()
     cin >> decision;
     switch (decision)
     {
-    case 1:
+    case 1:                
+        for (int mel = 1000; mel > 0; mel--)
+        {
+            system("cls");
+            cout << "Haciendo cuenta regresiva en " << mel;            
+        }
         while (mil > 0)
         {
             mil--;
-            cout << "Haciendo cuenta regresiva en " << mil;
             system("cls");
+            cout << "Haciendo cuenta regresiva en " << mil;
         }
         do
         {
             miluno--;
+            system("cls");
             cout << "Haciendo cuenta regresiva en " << miluno;
-            system("cls");
         } while (miluno > 0);
-        for (int mel = 1000; mel > 0; mel--)
-        {
-            cout << "Haciendo cuenta regresiva en " << mel;
-            system("cls");
-        }
         break;
     case 2:
-        for (int i = 0; i < 10; ++i) 
+        for (int a = 0; a < 10; ++a) 
         {
-            for (int j = 0; j < 10; ++j) 
+            for (int a = 0; a < 10; ++a) 
             {
-                diez[i][j] = i * 10 + j;
+                diez[a][a] = a * 10 + a;
             }
         }
-        for (int i = 0; i < 10; ++i) 
+        for (int x = 0; x < 100; x+=10) 
         {
-            for (int j = 0; j < 10; ++j) 
+            for (int a = 0; a < 10; ++a) 
             {
-                cout << diez[i][j] << "\t";
+                cout <<x+a<< "\t";
             }
             cout << endl;
         }
         break;
     case 3:
-        for (int i = 0; i <= cuenta; ++i) 
+        for (int lento = 0; lento <= cuenta; ++lento) 
         {
-            cout << i << endl;
-            this_thread::sleep_for(chrono::seconds(1));
-            system("cls");
+            cout << lento << endl;
+            this_thread::sleep_for(chrono::seconds(1));            
         }
         break;
     }
