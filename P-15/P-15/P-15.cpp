@@ -26,6 +26,7 @@ int main()
 	int pelea;
 	bool batalla = true;
 	int ataque;
+	bool Latigo = false;
 	int Hogar;
 
 	setlocale(LC_ALL, "es_MX.UTF-8");
@@ -152,14 +153,14 @@ int main()
 				system("pause");
 				cout << "¡Vamos " << Pokemon << "!" << endl;
 				system("pause");
-				while (batalla == true);
+				while (batalla == true)
 				{
 					system("cls");
 					if (salud_r == 0)
 					{
-						cout << "El " << Pokemon_r << " ha caido derrotado" << endl;
+						cout << "El " << Pokemon_r << " rival ha caido derrotado" << endl;
 						system("pause");
-						cout << "¡Felicidades!" << Pokemon << " obtiene 30 de experiencia y tu obtienes 100 P por vencer" << endl;
+						cout << "¡Felicidades! " << Pokemon << " obtiene 30 de experiencia y tu obtienes 100 P por vencer" << endl;
 						system("pause");
 						batalla = false;
 					}
@@ -170,13 +171,13 @@ int main()
 						batalla = false;
 					}
 					cout << "¿Que deberia hacer " << Pokemon << "?" << endl;
-					cout << "1. Latigo cepa 2. Placaje." << Pokemon << " " << salud << " " << Pokemon_r << " " << salud_r << endl;
+					cout << "1. Latigo cepa 2. Placaje. " << Pokemon << " " << salud << " " << Pokemon_r << " " << salud_r << endl;
 					cin >> ataque;
 					switch (ataque)
 					{
 					case 1:
-						cout << Pokemon << " Latigo cepa" << endl;
-						salud_r - 15;
+						cout << Pokemon << " ha usado latigo cepa" << endl;
+						salud_r - 10;
 						system("pause");
 						cout << "¡Es super efectivo!" << endl;
 						system("pause");
@@ -223,12 +224,12 @@ int main()
 				system("pause");
 				cout << "¡Vamos " << Pokemon << "!" << endl;
 				system("pause");
-				while (batalla == true);
+				while (batalla == true)
 				{
 					system("cls");
 					if (salud_r == 0)
 					{
-						cout << "El " << Pokemon_r << " ha caido derrotado" << endl;
+						cout << "El " << Pokemon_r << " rival ha caido derrotado" << endl;
 						system("pause");
 						cout << "¡Felicidades!" << Pokemon << " obtiene 30 de experiencia y tu obtienes 100 P por vencer" << endl;
 						system("pause");
@@ -247,6 +248,7 @@ int main()
 					{
 					case 1:
 						cout << Pokemon << " ha usado ascuas" << endl;
+						salud_r - 10;
 						system("pause");
 						cout << "¡Es super efectivo!" << endl;
 						system("pause");
@@ -293,11 +295,10 @@ int main()
 				system("pause");
 				cout << "¡Vamos " << Pokemon << "!" << endl;
 				system("pause");
-				break;
-				while (batalla == true);
+				while (batalla == true)
 				{
 					system("cls");
-					if (salud_r == 0)
+					if (salud_r <= 0)
 					{
 						cout << "El " << Pokemon_r << " ha caido derrotado" << endl;
 						system("pause");
@@ -305,35 +306,36 @@ int main()
 						system("pause");
 						batalla = false;
 					}
-					else if (salud == 0)
+					else if (salud <= 0)
 					{
 						cout << rival << ":¡Si! ¡Te gane!" << endl;
 						system("pause");
 						batalla = false;
 					}
 					cout << "¿Que deberia hacer " << Pokemon << "?" << endl;
-					cout << "1. Pistola de agua 2. Placaje." << Pokemon << " " << salud << " " << Pokemon_r << " " << salud_r << endl;
+					cout << "1. Pistola de agua 2. Placaje. 3. " << Pokemon << " " << salud << " " << Pokemon_r << " " << salud_r << endl;
 					cin >> ataque;
 					switch (ataque)
 					{
 					case 1:
 						cout << Pokemon << " ha usado pistola de agua" << endl;
-						salud_r - 15;
+						salud_r -= 10;
 						system("pause");
 						cout << "Es muy efectivo" << endl;
 						system("pause");
 						cout << "El " << Pokemon_r << " rival ha usado pistola de agua" << endl;
-						salud - 2;
+						salud -= 2;
 						system("pause");
 						cout << "No es muy efectivo" << endl;
 						break;
 
 					case 2:
 						cout << Pokemon << " Ha usado placaje" << endl;
-						salud_r - 5;
+						salud_r -= 5;
 						system("pause");
 						cout << Pokemon_r << " Ha usado placaje" << endl;
-						salud - 5;
+						salud -= 5;
+						system("pause");
 						break;
 					}
 				}
@@ -354,9 +356,9 @@ int main()
 			system("cls");
 			cout << "VAMOS METAPOOOD! SOLO TIENE " << salud_LP << " DE VIDA, DALEEEE!!!" << endl;
 			system("pause");
-			while (batalla == true);
+			while (batalla == true)
 			{
-				if (salud_LP == 0)
+				if (salud_LP <= 0)
 				{
 					cout << LP << " ha caido derrotado" << endl;
 					system("pause");
@@ -364,37 +366,36 @@ int main()
 					system("pause");
 					batalla = false;
 				}
-				else if (salud_M == 0)
+				else if (salud_M <= 0)
 				{
 					cout << "Metapod cae derrotado y pierdes" << endl;
 					system("pause");
 					batalla = false;
 				}
 				cout << "¿Que deberia hacer Metapod?" << endl;
-				cout << "1. Placaje 2. Super placaje 3. Refuerzo 4. Movimiento Z" << "Metapod " << salud_M << " " << LP << " " << salud_LP << endl;
+				cout << "1. Placaje 2. Super placaje 3. Refuerzo 4. Movimiento Z" << " Metapod " << salud_M << " " << LP << " " << salud_LP << endl;
 				cin >> ataque;
 				switch (ataque)
 				{
 				case 1:
 					cout << "Metapod ha usado placaje" << endl;
-					salud_LP - 1;
+					salud_LP =- 1;
 					system("pause");
 					cout << "No ha sido muy efectivo" << endl;
 					system("pause");
 					cout << LP << " ha usado mordisco" << endl;
-					salud_M - 1;
+					salud_M =- 1;
 					system("pause");
 					cout << "De alguna manera Metapod ha logrado sobrevivir la gran parte del ataque y recibir un solo punto de daño" << endl;
 					system("pause");
-					batalla = false;
 					break;
 
 				case 2:
 					cout << "Metapod ha usado super placaje" << endl;
-					salud_LP - 2;
+					salud_LP =- 2;
 					system("pause");
 					cout << LP << " ha usado mordisco" << endl;
-					salud_M - 1;
+					salud_M =- 1;
 					system("pause");
 					cout << "De alguna manera Metapod ha logrado sobrevivir la gran parte del ataque y recibir un solo punto de daño" << endl;
 					system("pause");
@@ -417,7 +418,7 @@ int main()
 					cout << "Empiezas a activar tu piedra mega-evolucion, cristalicacion y gigamax, haciendo que Metapod resplandezca fuertemente." << endl;
 					system("pause");
 					cout << "Metapod se convierte en Mega-Metapod primigenio gigamax cristalizado PRIME, o solo Metapod PRIME para los compas" << endl;
-					cout << "Finalmente usas tu movimiento Z y metapod empieza a cargar el ataque y lo lanza, siendo un poderoso y gigantesco kamehameha final, pulverizando a" << LP << " y ganando la batalla triunfalmente" << endl;
+					cout << "Finalmente usas tu movimiento Z y metapod empieza a cargar el ataque y lo lanza, siendo un poderoso y gigantesco kamehameha final, pulverizando a " << LP << " y ganando la batalla triunfalmente" << endl;
 					batalla = false;
 					break;
 				}
@@ -431,7 +432,7 @@ int main()
 			system("cls");
 			cout << "VAMOS METAPOOOD! SOLO TIENE " << salud_LP << " DE VIDA, DALEEEE!!!" << endl;
 			system("pause");
-			while (batalla == true);
+			while (batalla == true)
 			{
 				system("cls");
 				if (salud_LP == 0)
@@ -508,7 +509,7 @@ int main()
 			system("cls");
 			cout << "VAMOS METAPOOOD! SOLO TIENE " << salud_LP << " DE VIDA, DALEEEE!!!" << endl;
 			system("pause");
-			while (batalla == true);
+			while (batalla == true)
 			{
 				system("cls");
 				if (salud_LP == 0)
