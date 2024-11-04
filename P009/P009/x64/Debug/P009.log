@@ -1,0 +1,4 @@
+﻿  P009.cpp
+C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\F_Programacion_zap1179_25_2\P009\P009\P009.cpp(15,9): error C2369: 'matriz': nueva definición; subíndices distintos
+C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\F_Programacion_zap1179_25_2\P009\P009\P009.cpp(16,9): error C2369: 'matriz': nueva definición; subíndices distintos
+C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\F_Programacion_zap1179_25_2\P009\P009\P009.cpp(17,15): error C2088: el operador integrado '<<' no se puede aplicar a un operando de tipo 'std::ostream'
