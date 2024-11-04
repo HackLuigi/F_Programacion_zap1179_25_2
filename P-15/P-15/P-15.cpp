@@ -81,11 +81,11 @@ int main()
 				case 3:
 					if (ropa == true)
 					{
-						salir == true;
 						cout << "Madre:Oh ¡Hijo mio! ¡Esa ropa te queda incredible! ¡Sabria que te gustaria y te quedaria increible!" << endl;
 						system("pause");
 						cout << "Madre:Muy bien, aqui tienes tu  comida, te deberia de aguantar hasta la tienda de comida mas cercana, cuidate ¿Ok? ¡Te amo hijo! ¡No lo olvides!" << endl;
 						system("pause");
+						salir = true;
 					}
 					else
 					{
@@ -121,6 +121,7 @@ int main()
 			system("pause");
 			cout << "Te acercas a las 3 pokebolas, pegadas en la parte roja del circulo, hay un post-it en cada bola con el nombre y el tipo." << endl;
 			system("pause");
+			system("cls");
 			cout << "1. Bulbasaur, un pokemon de tipo planta. 2. Charmander, un pokemon de tipo fuego. 3. Squirtle, un pokemon de tipo agua" << endl;
 			cin >> tipo;
 			switch (tipo)
@@ -139,7 +140,7 @@ int main()
 				{
 					Pokemon = "Bulbasaur";
 				}
-				cout << "Muy bien, entonces se llamara" << Pokemon << endl;
+				cout << "Muy bien, entonces se llamara " << Pokemon << endl;
 				system("pause");
 				cout << rival << ":¡Genial! ¡Yo elegi al que se llama " << Pokemon_r << "!" << endl;
 				system("pause");
@@ -210,9 +211,9 @@ int main()
 				{
 					Pokemon = "Charmander";
 				}
-				cout << "Muy bien, entonces se llamara" << Pokemon << endl;
+				cout << "Muy bien, entonces se llamara " << Pokemon << endl;
 				system("pause");
-				cout << rival << ":¡Genial! ¡Yo elegi al que se llama" << Pokemon_r << "!" << endl;
+				cout << rival << ":¡Genial! ¡Yo elegi al que se llama " << Pokemon_r << "!" << endl;
 				system("pause");
 				cout << rival << ":¡Oye! ¡Tengo una idea! ¡Combatamos ahora mismo para ver las habilidades de nuestros pokemones!" << endl;
 				system("pause");
@@ -282,7 +283,7 @@ int main()
 				}
 				cout << "Muy bien, entonces se llamara " << Pokemon << endl;
 				system("pause");
-				cout << rival << ":¡Genial! ¡Yo elegi al que se llama" << Pokemon_r << "!" << endl;
+				cout << rival << ":¡Genial! ¡Yo elegi al que se llama " << Pokemon_r << "!" << endl;
 				system("pause");
 				cout << rival << ":¡Oye! ¡Tengo una idea! ¡Combatamos ahora mismo para ver las habilidades de nuestros pokemones!" << endl;
 				system("pause");
@@ -355,7 +356,6 @@ int main()
 			system("pause");
 			while (batalla == true);
 			{
-				system("cls");
 				if (salud_LP == 0)
 				{
 					cout << LP << " ha caido derrotado" << endl;
@@ -386,6 +386,7 @@ int main()
 					system("pause");
 					cout << "De alguna manera Metapod ha logrado sobrevivir la gran parte del ataque y recibir un solo punto de daño" << endl;
 					system("pause");
+					batalla = false;
 					break;
 
 				case 2:
