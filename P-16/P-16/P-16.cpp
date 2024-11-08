@@ -14,21 +14,20 @@ int main()
     for (int list1 = 0; list1 < 3; list1++) 
     {
         cout << nombre[list1] << " ";
+        cout << epoca[list1] << " ";
+        cout << Creador[list1] << " ";
+        cout << estudio[list1] << " ";
     }
     cout << endl;
-    for (int list2 = 0; list2 < 3; list2++)
+    for (int list1 = 0; list1 < 3; list1++)
     {
-        cout << epoca[list2] << " ";
-    }
-    cout << endl;
-    for (int list3 = 0; list3 < 3; list3++)
-    {
-        cout << Creador[list3] << " ";
-    }
-    cout << endl;
-    for (int list4 = 0; list4 < 3; list4++)
-    {
-        cout << estudio[list4] << " ";
+        cout << nombre[list1] << " ";
+        cout << endl;
+        cout << epoca[list1] << " ";
+        cout << endl;
+        cout << Creador[list1] << " ";
+        cout << endl;
+        cout << estudio[list1] << " ";
     }
 }
 

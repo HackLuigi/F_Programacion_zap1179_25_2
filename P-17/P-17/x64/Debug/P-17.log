@@ -1,3 +1,3 @@
 ﻿  P-17.cpp
-C:\Users\DELL\Desktop\Tarea\Visual studio\F_Programacion_zap1179_25_2\P-17\P-17\P-17.cpp(11,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-  P-17.vcxproj -> C:\Users\DELL\Desktop\Tarea\Visual studio\F_Programacion_zap1179_25_2\P-17\x64\Debug\P-17.exe
+C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\F_Programacion_zap1179_25_2\P-17\P-17\P-17.cpp(11,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  P-17.vcxproj -> C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\F_Programacion_zap1179_25_2\P-17\x64\Debug\P-17.exe

@@ -36,16 +36,16 @@ int main()
         }
         break;
     case 2:
-        for (int x = 0; x < 3; x++)
+        for (int x = 0; x < 5; x++)
         {
-            for (int y = 0; y <= 2; y++)
+            for (int y = 0; y <= 5; y++)
             {
                 Matriz2[x][y] = rand() % 9 + 1;
             }
         }
-        for (int x = 0; x < 3; x++)
+        for (int x = 0; x < 5; x++)
         {
-            for (int y = 0; y <= 2; y++)
+            for (int y = 0; y <= 5; y++)
             {
                 std::cout << "|" << Matriz2[x][y] << "|";
             }
@@ -53,16 +53,16 @@ int main()
         }
         break;
     case 3:
-        for (int x = 0; x < 3; x++)
+        for (int x = 0; x < 10; x++)
         {
-            for (int y = 0; y <= 2; y++)
+            for (int y = 0; y <= 10; y++)
             {
                 Matriz3[x][y] = rand() % 9 + 1;
             }
         }
-        for (int x = 0; x < 3; x++)
+        for (int x = 0; x < 10; x++)
         {
-            for (int y = 0; y <= 2; y++)
+            for (int y = 0; y <= 10; y++)
             {
                 std::cout << "|" << Matriz3[x][y] << "|";
             }
