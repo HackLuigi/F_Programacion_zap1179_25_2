@@ -1,0 +1,3 @@
+﻿  P-18.cpp
+C:\Users\DELL\Desktop\Tarea\Visual studio\F_Programacion_zap1179_25_2\P-18\P-18\P-18.cpp(60,23): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  P-18.vcxproj -> C:\Users\DELL\Desktop\Tarea\Visual studio\F_Programacion_zap1179_25_2\P-18\x64\Debug\P-18.exe

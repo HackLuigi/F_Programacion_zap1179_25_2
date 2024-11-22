@@ -3,15 +3,21 @@
 
 #include <iostream>
 #include <string>
+#include <locale>
 using namespace std;
 
 int main()
 {
     string nombre[3] = { "Mario bros wii","Smash bros 64","Metal gear solid" };
-    int epoca[3] = {2009, 1999, 1998};
+    int epoca[3] = { 2009, 1999, 1998 };
     string Creador[3] = { "Shigeru Miyamoto", "Masahiro Sakurai", "Hideo Kojima" };
     string estudio[3] = { "Nintendo", "Nintendo", "Fox Studios" };
-    for (int list1 = 0; list1 < 3; list1++) 
+    string nombre_user[3];
+    int epoca_user[3];
+    string Creador_user[3];
+    string estudio_user[3];
+    setlocale(LC_ALL, "es_MX.UTF-8");
+    for (int list1 = 0; list1 < 3; list1++)
     {
         cout << nombre[list1] << " ";
         cout << epoca[list1] << " ";
@@ -28,6 +34,41 @@ int main()
         cout << Creador[list1] << " ";
         cout << endl;
         cout << estudio[list1] << " ";
+    }
+    cout << endl;
+    cout << "Elija tres juegos de su gusto con sus respectivos años de creacion, creadores y estudios" << endl;
+    cout << "Primer juego" << endl;
+    cin >> nombre_user[0];
+    cin >> epoca_user[0];
+    cin >> Creador_user[0];
+    cin >> estudio_user [0];
+    cout << "Segundo juego" << endl;
+    cin >> nombre_user[1];
+    cin >> epoca_user[1];
+    cin >> Creador_user[1];
+    cin >> estudio_user[1];
+    cout << "Tercher juego" << endl;
+    cin >> nombre_user[2];
+    cin >> epoca_user[2];
+    cin >> Creador_user[2];
+    cin >> estudio_user[2];
+    system("cls");
+    for (int list2 = 0; list2 < 3; list2++)
+    {
+        cout << nombre_user[list2] << " ";
+        cout << epoca_user[list2] << " ";
+        cout << Creador_user[list2] << " ";
+        cout << estudio_user[list2] << " ";
+    }
+    for (int list2 = 0; list2 < 3; list2++)
+    {
+        cout << nombre_user[list2] << " ";
+        cout << endl;
+        cout << epoca_user[list2] << " ";
+        cout << endl;
+        cout << Creador_user[list2] << " ";
+        cout << endl;
+        cout << estudio_user[list2] << " ";
     }
 }
 
