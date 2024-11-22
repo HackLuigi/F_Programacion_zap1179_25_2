@@ -23,7 +23,7 @@ int main()
         switch (decision)
         {
         case 1:
-            cout << "Ingrese los datos para la matriz 2x3:" << endl;
+            cout << "Ingrese los numeros para la matriz 2x3:" << endl;
             for (int i = 0; i < 2; i++)
             {
                 for (int j = 0; j < 3; j++)

@@ -47,7 +47,7 @@ int main()
     cin >> epoca_user[1];
     cin >> Creador_user[1];
     cin >> estudio_user[1];
-    cout << "Tercher juego" << endl;
+    cout << "Tercer juego" << endl;
     cin >> nombre_user[2];
     cin >> epoca_user[2];
     cin >> Creador_user[2];
