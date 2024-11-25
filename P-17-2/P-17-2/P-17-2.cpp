@@ -58,7 +58,7 @@ int main()
                    }
                    cout << endl;
                }
-               cout << "Le gustaria hacer alguna mas?" << endl;
+               cout << "Le gustaria hacer alguna mas? (1 si 0 no)" << endl;
                cin >> otra_vez;
                break;
 
@@ -73,7 +73,7 @@ int main()
                    }
                    cout << endl;
                }
-               cout << "Le gustaria hacer alguna mas?" << endl;
+               cout << "Le gustaria hacer alguna mas? (1 si 0 no)" << endl;
                cin >> otra_vez;
                break;
 
@@ -88,7 +88,7 @@ int main()
                    }
                    cout << endl;
                }
-               cout << "Le gustaria hacer alguna mas?" << endl;
+               cout << "Le gustaria hacer alguna mas? (si 0 no)" << endl;
                cin >> otra_vez;
                break;
            }
