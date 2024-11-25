@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Tarea\\Visual studio\\F_Programacion_zap1179_25_2\\P-24\\",
+  "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\P-24\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{033E3E4B-FF7D-43A3-9162-1EB8DB087DED}|P-24\\P-24.vcxproj|C:\\Users\\DELL\\Desktop\\Tarea\\Visual studio\\F_Programacion_zap1179_25_2\\P-24\\P-24\\P-24.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{033E3E4B-FF7D-43A3-9162-1EB8DB087DED}|P-24\\P-24.vcxproj|C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\P-24\\P-24\\P-24.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{033E3E4B-FF7D-43A3-9162-1EB8DB087DED}|P-24\\P-24.vcxproj|solutionrelative:P-24\\P-24.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "P-24.cpp",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Tarea\\Visual studio\\F_Programacion_zap1179_25_2\\P-24\\P-24\\P-24.cpp",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\P-24\\P-24\\P-24.cpp",
               "RelativeDocumentMoniker": "P-24\\P-24.cpp",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Tarea\\Visual studio\\F_Programacion_zap1179_25_2\\P-24\\P-24\\P-24.cpp",
+              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\P-24\\P-24\\P-24.cpp",
               "RelativeToolTip": "P-24\\P-24.cpp",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-25T08:44:33.763Z",
               "EditorCaption": ""

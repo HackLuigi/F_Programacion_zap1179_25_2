@@ -13,6 +13,7 @@ public:
 };
 int decision;
 bool decisionif = true;
+bool otra_vez = true;
 
 void Final_fantasys(nodo* n)
 {
@@ -34,59 +35,69 @@ void El_cuerpo(nodo* n)
 
 int main()
 {
-    cout << "Eliga que le gustaria ver (1. cuerpo 0. FF)" << endl;
-    cin >> decisionif;
-    if (decisionif == true)
+    while (otra_vez == true)
     {
-        nodo* cabeza = NULL;
-        nodo* torso = NULL;
-        nodo* brazos = NULL;
-        nodo* pies = NULL;
+        system("cls");
+        cout << "Eliga que le gustaria ver (1. cuerpo 0. FF)" << endl;
+        cin >> decisionif;
+        if (decisionif == true)
+        {
+            nodo* cabeza = NULL;
+            nodo* torso = NULL;
+            nodo* brazos = NULL;
+            nodo* pies = NULL;
 
-        cabeza = new nodo();
-        torso = new nodo();
-        brazos = new nodo();
-        pies = new nodo();
+            cabeza = new nodo();
+            torso = new nodo();
+            brazos = new nodo();
+            pies = new nodo();
 
-        cabeza->texto = "Hola (cabeza)";
-        cabeza->next = torso;
+            cabeza->texto = "Hola (cabeza)";
+            cabeza->next = torso;
 
-        torso->texto = "soy (torso)";
-        torso->next = brazos;
+            torso->texto = "soy (torso)";
+            torso->next = brazos;
 
-        brazos->texto = "un (brazos)";
-        brazos->next = pies;
+            brazos->texto = "un (brazos)";
+            brazos->next = pies;
 
-        pies->texto = "nodo del cuerpo (pies)";
-        pies->next = NULL;
+            pies->texto = "nodo del cuerpo (pies)";
+            pies->next = NULL;
 
-        El_cuerpo(cabeza);
-    }
-    else
-    {
-        nodo* ff1 = NULL;
-        nodo* ff7 = NULL;
-        nodo* ff9 = NULL;
-        nodo* ff16 = NULL;
-        
-        ff1= new nodo();
-        ff7 = new nodo();
-        ff9 = new nodo();
-        ff16 = new nodo();
+            El_cuerpo(cabeza);
+            cout << endl;
+            cout << "Le gustaria ver el segundo o volver a ver el primero? (1 si 0 no)" << endl;
+            cin >> otra_vez;
+        }
+        else
+        {
+            nodo* ff1 = NULL;
+            nodo* ff7 = NULL;
+            nodo* ff9 = NULL;
+            nodo* ff16 = NULL;
 
-        ff1->entregas = "Final fantasy";
-        ff1->juegos = ff7;
+            ff1 = new nodo();
+            ff7 = new nodo();
+            ff9 = new nodo();
+            ff16 = new nodo();
 
-        ff7->entregas = "Final fantasy 7";
-        ff7->juegos = ff9;
+            ff1->entregas = "Final fantasy";
+            ff1->juegos = ff7;
 
-        ff9->entregas = "Final fantasy 9";
-        ff9->juegos = ff16;
+            ff7->entregas = "Final fantasy 7";
+            ff7->juegos = ff9;
 
-        ff16->entregas = "Final fantasy 16";
-        ff16->juegos = NULL;
+            ff9->entregas = "Final fantasy 9";
+            ff9->juegos = ff16;
 
-        Final_fantasys(ff1);
+            ff16->entregas = "Final fantasy 16";
+            ff16->juegos = NULL;
+
+            Final_fantasys(ff1);
+            cout << endl;
+            cout << "Le gustaria ver el segundo o volver a ver el primero? (1 si 0 no)" << endl;
+            cin >> otra_vez;
+        }
     }
 }
 
