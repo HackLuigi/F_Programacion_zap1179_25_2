@@ -5,31 +5,37 @@
 #include <math.h>
 #include <locale>
 #include <cstdlib>
+#include <time.h>
+#include <string>
 using namespace std;
 
 int main()
 {
+	srand(time(NULL));
+	int ataque_r = rand() % 3;
 	string user;
-	bool ropa = false;
-	bool salir = false;
-	int tipo;
-	bool mote = false;
+	string rival;
 	string Pokemon;
 	string Pokemon_r;
 	string LP;
+	bool ropa = false;
+	bool salir = false;
+	bool mote = false;
+	bool batalla = true;
+	bool grunido = false;
+	bool grunido_r = false;
+	int tipo;
 	int salud = 25;
 	int salud_M = 8;
-	string rival;
 	int salud_r = 25;
 	int salud_LP = 9;
 	int decision;
 	int pelea;
-	bool batalla = true;
 	int ataque;
-	bool Latigo = false;
 	int Hogar;
 
 	setlocale(LC_ALL, "es_MX.UTF-8");
+	cout << ataque_r;
 	cout << "Elige" << endl;
 	cout << "1. G1 2. Combate random xd" << endl;
 	cin >> decision;
@@ -43,9 +49,11 @@ int main()
 			system("pause");
 			cout << "Oak:Y tu... Eh... Disculpa ¿Como disjiste que te llamas?" << endl;
 			system("pause");
-			cin >> user;
+			getline(cin, user);
+			cin.ignore();
 			cout << "Oak:Ah, sicierto, " << user << ", bueno, como sabras, tengo un sobrino, el se llama... Emmm... ¿Me recuerdas el nombre porfavor? Es tu amigo de la infancia asi que deberias saberlo." << endl;
-			cin >> rival;
+			getline(cin, rival);
+			cin.ignore();
 			cout << "Oak:Es verdad, " << rival << ", mi querido nieto." << endl;
 			system("pause");
 			cout << "Oak:Tengo una sorpresa para ambos, he estado planeando esto ya por muchos años, tu madre te dira que hacer mañana, pero solo te avisare." << endl;
@@ -105,7 +113,7 @@ int main()
 					break;
 				}
 			}
-			system("cls");
+			system("cls"); 
 			cout << "Despues de despedirte de tu madre, agarrar tu comida y salir de tu hogar, te encuentras con " << rival << "." << endl;
 			system("pause");
 			cout << rival << ":¡" << user << "! ¡Hola! ¡Hasta que porfin te levantas! ¡Ven! ¡El profesor nos esta esperando!" << endl;
@@ -135,7 +143,8 @@ int main()
 				cin >> mote;
 				if (mote == true)
 				{
-					cin >> Pokemon;
+					cin.ignore();
+					getline(cin, Pokemon);
 				}
 				else
 				{
@@ -156,7 +165,7 @@ int main()
 				while (batalla == true)
 				{
 					system("cls");
-					if (salud_r == 0)
+					if (salud_r <= 0)
 					{
 						cout << "El " << Pokemon_r << " rival ha caido derrotado" << endl;
 						system("pause");
@@ -164,35 +173,78 @@ int main()
 						system("pause");
 						batalla = false;
 					}
-					else if (salud == 0)
+					else if (salud <= 0)
 					{
 						cout << rival << ":¡Si! ¡Te gane!" << endl;
 						system("pause");
 						batalla = false;
 					}
 					cout << "¿Que deberia hacer " << Pokemon << "?" << endl;
-					cout << "1. Latigo cepa 2. Placaje. " << Pokemon << " " << salud << " " << Pokemon_r << " " << salud_r << endl;
+					cout << "1. Latigo cepa 2. Placaje. 3. Gruñido " << Pokemon << " " << salud << " " << Pokemon_r << " " << salud_r << endl;
 					cin >> ataque;
 					switch (ataque)
 					{
 					case 1:
 						cout << Pokemon << " ha usado latigo cepa" << endl;
-						salud_r - 10;
+						salud_r -= 10;
 						system("pause");
 						cout << "¡Es super efectivo!" << endl;
 						system("pause");
-						cout << "El " << Pokemon_r << " rival ha usado pistola de agua" << endl;
-						salud - 2;
-						system("pause");
-						cout << "No es muy efectivo" << endl;
-						break;
+						switch (ataque_r)
+						{
+						case 0:
+							cout << "El " << Pokemon_r << " rival ha usado pistola de agua" << endl;
+							salud -= 2;
+							system("pause");
+							cout << "No es muy efectivo" << endl;
+							break;
+						
+						case 1:
+							cout << "El " << Pokemon_r << " rival ha usado placaje" << endl;
+							salud -= 5;
+							break;
 
+						case 2:
+							cout << "El " << Pokemon_r << " rival ha usado gruñido" << endl;
+							if (grunido_r == false)
+							break;
+						}
+						break;
+						
 					case 2:
 						cout << Pokemon << " Ha usado placaje" << endl;
-						salud_r - 5;
+						salud_r -= 5;
 						system("pause");
-						cout << Pokemon_r << " Ha usado placaje" << endl;
-						salud - 5;
+						switch (ataque_r)
+						{
+						case 0:
+							cout << "El " << Pokemon_r << " rival ha usado pistola de agua" << endl;
+							salud -= 2;
+							system("pause");
+							cout << "No es muy efectivo" << endl;
+							break;
+
+						case 1:
+							cout << "El " << Pokemon_r << " rival ha usado placaje" << endl;
+							salud -= 5;
+							break;
+						}
+						break;
+
+					case 3:
+						cout << Pokemon << " ha usado gruñido" << endl;
+						system("pause");
+						if (grunido == false)
+						{
+							cout << "El ataque del " << Pokemon_r << " rival ha bajado";
+							grunido = true;
+							system("pause");
+						}
+						else
+						{
+							cout << "Pero ha fallado";
+							system("pause");
+						}
 						break;
 					}
 				}
@@ -206,7 +258,8 @@ int main()
 				cin >> mote;
 				if (mote == true)
 				{
-					cin >> Pokemon;
+					cin.ignore();
+					getline(cin, Pokemon);
 				}
 				else
 				{
@@ -227,7 +280,7 @@ int main()
 				while (batalla == true)
 				{
 					system("cls");
-					if (salud_r == 0)
+					if (salud_r <= 0)
 					{
 						cout << "El " << Pokemon_r << " rival ha caido derrotado" << endl;
 						system("pause");
@@ -235,35 +288,51 @@ int main()
 						system("pause");
 						batalla = false;
 					}
-					else if (salud == 0)
+					else if (salud <= 0)
 					{
 						cout << rival << ":¡Si! ¡Te gane!" << endl;
 						system("pause");
 						batalla = false;
 					}
 					cout << "¿Que deberia hacer " << Pokemon << "?" << endl;
-					cout << "1. Ascuas 2. Placaje." << Pokemon << " " << salud << " " << Pokemon_r << " " << salud_r << endl;
+					cout << "1. Ascuas 2. Placaje. 3. Gruñido" << Pokemon << " " << salud << " " << Pokemon_r << " " << salud_r << endl;
 					cin >> ataque;
 					switch (ataque)
 					{
 					case 1:
 						cout << Pokemon << " ha usado ascuas" << endl;
-						salud_r - 10;
+						salud_r -= 10;
 						system("pause");
 						cout << "¡Es super efectivo!" << endl;
 						system("pause");
 						cout << "El " << Pokemon_r << " rival ha usado pistola de agua" << endl;
-						salud - 2;
+						salud -= 2;
 						system("pause");
 						cout << "No es muy efectivo" << endl;
 						break;
 
 					case 2:
 						cout << Pokemon << " Ha usado placaje" << endl;
-						salud_r - 5;
+						salud_r -= 5;
 						system("pause");
 						cout << Pokemon_r << " Ha usado placaje" << endl;
-						salud - 5;
+						salud -= 5;
+						break;
+
+					case 3:
+						cout << Pokemon << " ha usado gruñido" << endl;
+						system("pause");
+						if (grunido == false)
+						{
+							cout << "El ataque del " << Pokemon_r << " rival ha bajado";
+							grunido = true;
+							system("pause");
+						}
+						else
+						{
+							cout << "Pero ha fallado";
+							system("pause");
+						}
 						break;
 					}
 				}
@@ -277,7 +346,8 @@ int main()
 				cin >> mote;
 				if (mote == true)
 				{
-					cin >> Pokemon;
+					cin.ignore();
+					getline(cin, Pokemon);
 				}
 				else
 				{
@@ -336,6 +406,22 @@ int main()
 						cout << Pokemon_r << " Ha usado placaje" << endl;
 						salud -= 5;
 						system("pause");
+						break;
+
+					case 3:
+						cout << Pokemon << " ha usado gruñido" << endl;
+						system("pause");
+						if (grunido == false)
+						{
+							cout << "El ataque del " << Pokemon_r << " rival ha bajado";
+							grunido = true;
+							system("pause");
+						}
+						else
+						{
+							cout << "Pero ha fallado";
+							system("pause");
+						}
 						break;
 					}
 				}
