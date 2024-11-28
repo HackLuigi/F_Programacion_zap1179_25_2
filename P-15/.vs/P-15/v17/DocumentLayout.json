@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Desktop\\F_Programacion_zap1179_25_2\\P-15\\",
+  "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\P-15\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D09E4CB-DAE2-4707-ABBA-1AB925F85E75}|P-15\\P-15.vcxproj|C:\\Users\\ALUMNO\\Desktop\\F_Programacion_zap1179_25_2\\P-15\\P-15\\P-15.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2D09E4CB-DAE2-4707-ABBA-1AB925F85E75}|P-15\\P-15.vcxproj|C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\P-15\\P-15\\P-15.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2D09E4CB-DAE2-4707-ABBA-1AB925F85E75}|P-15\\P-15.vcxproj|solutionrelative:P-15\\P-15.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "P-15.cpp",
-              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\F_Programacion_zap1179_25_2\\P-15\\P-15\\P-15.cpp",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\P-15\\P-15\\P-15.cpp",
               "RelativeDocumentMoniker": "P-15\\P-15.cpp",
-              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\F_Programacion_zap1179_25_2\\P-15\\P-15\\P-15.cpp",
+              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\P-15\\P-15\\P-15.cpp",
               "RelativeToolTip": "P-15\\P-15.cpp",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAAwPcAAAAMAAAAAAAAAA==",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAUwMEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-02T23:56:06.935Z",
               "EditorCaption": ""

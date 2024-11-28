@@ -1,11 +1,11 @@
 ﻿  P-15.cpp
-C:\Users\ALUMNO\Desktop\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(14,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-C:\Users\ALUMNO\Desktop\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(497,15): warning C4552: "-": el resultado de la expresión no se usa
-C:\Users\ALUMNO\Desktop\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(502,14): warning C4552: "-": el resultado de la expresión no se usa
-C:\Users\ALUMNO\Desktop\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(510,15): warning C4552: "-": el resultado de la expresión no se usa
-C:\Users\ALUMNO\Desktop\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(513,14): warning C4552: "-": el resultado de la expresión no se usa
-C:\Users\ALUMNO\Desktop\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(574,15): warning C4552: "-": el resultado de la expresión no se usa
-C:\Users\ALUMNO\Desktop\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(579,14): warning C4552: "-": el resultado de la expresión no se usa
-C:\Users\ALUMNO\Desktop\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(587,15): warning C4552: "-": el resultado de la expresión no se usa
-C:\Users\ALUMNO\Desktop\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(590,14): warning C4552: "-": el resultado de la expresión no se usa
-  P-15.vcxproj -> C:\Users\ALUMNO\Desktop\F_Programacion_zap1179_25_2\P-15\x64\Debug\P-15.exe
+C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(14,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(544,15): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(549,14): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(557,15): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(560,14): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(621,15): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(626,14): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(634,15): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\P-15\P-15\P-15.cpp(637,14): warning C4552: "-": el resultado de la expresión no se usa
+  P-15.vcxproj -> C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\P-15\x64\Debug\P-15.exe
