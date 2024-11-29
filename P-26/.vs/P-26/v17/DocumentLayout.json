@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Tarea\\Visual studio\\F_Programacion_zap1179_25_2\\P-26\\",
+  "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\P-26\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{419A0819-53E1-4FA6-BCA5-29D884A1F508}|P-26\\P-26.vcxproj|C:\\Users\\DELL\\Desktop\\Tarea\\Visual studio\\F_Programacion_zap1179_25_2\\P-26\\P-26\\P-26.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{419A0819-53E1-4FA6-BCA5-29D884A1F508}|P-26\\P-26.vcxproj|C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\P-26\\P-26\\P-26.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{419A0819-53E1-4FA6-BCA5-29D884A1F508}|P-26\\P-26.vcxproj|solutionrelative:P-26\\P-26.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "P-26.cpp",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Tarea\\Visual studio\\F_Programacion_zap1179_25_2\\P-26\\P-26\\P-26.cpp",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\P-26\\P-26\\P-26.cpp",
               "RelativeDocumentMoniker": "P-26\\P-26.cpp",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Tarea\\Visual studio\\F_Programacion_zap1179_25_2\\P-26\\P-26\\P-26.cpp",
+              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\1179\\F_Programacion_zap1179_25_2\\P-26\\P-26\\P-26.cpp",
               "RelativeToolTip": "P-26\\P-26.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-29T01:32:27.427Z",
               "EditorCaption": ""

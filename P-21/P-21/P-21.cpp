@@ -95,6 +95,7 @@ int main()
 
         while (true)
         {
+            //Esto sirve para seleccionar quien pelea
             int jugador1 = rand() % 20;
             int jugador2 = rand() % 20;
 

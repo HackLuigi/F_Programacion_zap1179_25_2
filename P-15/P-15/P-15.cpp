@@ -188,14 +188,17 @@ int main()
 						break;
 						
 					case 2:
-						cout << Pokemon << " Ha usado placaje" << endl;
+						cout << Pokemon << " ha usado placaje" << endl;
 						if (grunido_r == true)
 						{
-
+							salud_r -= 3;
+							system("pause");
 						}
-						salud_r -= 5;
-						system("pause");
-
+						else
+						{
+							salud_r -= 5;
+							system("pause");
+						}
 						break;
 
 					case 3:
@@ -218,14 +221,33 @@ int main()
 					{
 					case 0:
 						cout << "El " << Pokemon_r << " rival ha usado pistola de agua" << endl;
-						salud -= 2;
-						system("pause");
-						cout << "No es muy efectivo" << endl;
+						if (grunido == true)
+						{
+							salud -= 2;
+							system("pause");
+							cout << "No es muy efectivo" << endl;
+						}
+						else
+						{
+							salud -= 3;
+							system("pause");
+							cout << "No es muy efectivo" << endl;
+						}
 						break;
 
 					case 1:
 						cout << "El " << Pokemon_r << " rival ha usado placaje" << endl;
-						salud -= 5;
+						if (grunido == true)
+						{
+
+							salud -= 3;
+							system("pause");
+						}
+						else
+						{
+							salud -= 5;
+							system("pause");
+						}
 						break;
 
 					case 2:
