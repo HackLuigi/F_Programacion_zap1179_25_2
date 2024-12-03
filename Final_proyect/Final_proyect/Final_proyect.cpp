@@ -8,25 +8,13 @@
 #include <locale>
 using namespace std;
 
-void decimal_binario(int num)
+void decimal_binario(int Numero) 
 {
-	stack<int> pila;
-
-	if (num == 0)
+	if (Numero > 0) 
 	{
-		cout << "0";
+		decimal_binario(Numero / 2);
+		cout << (Numero % 2);
 	}
-	while (num > 0)
-	{
-		pila.push(num % 2);
-		num /= 2;
-	}
-	while (!pila.empty()) 
-	{
-		cout << pila.top();
-		pila.pop();
-	}
-	cout << endl;
 }
 
 int binario_decimal(string binario) 
@@ -186,6 +174,7 @@ int main()
 
 			case 7:
 				binario_f = false;
+				forever = false;
 
 				break;
 			}
