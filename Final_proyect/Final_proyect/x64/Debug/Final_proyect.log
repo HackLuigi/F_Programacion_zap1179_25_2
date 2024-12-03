@@ -1,0 +1,5 @@
+﻿  Final_proyect.cpp
+C:\Users\DELL\Desktop\Tarea\Visual studio\F_Programacion_zap1179_25_2\Final_proyect\Final_proyect\Final_proyect.cpp(37,13): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\DELL\Desktop\Tarea\Visual studio\F_Programacion_zap1179_25_2\Final_proyect\Final_proyect\Final_proyect.cpp(107,22): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\DELL\Desktop\Tarea\Visual studio\F_Programacion_zap1179_25_2\Final_proyect\Final_proyect\Final_proyect.cpp(57,6): warning C4101: 'binario': variable local sin referencia
+  Final_proyect.vcxproj -> C:\Users\DELL\Desktop\Tarea\Visual studio\F_Programacion_zap1179_25_2\Final_proyect\x64\Debug\Final_proyect.exe
