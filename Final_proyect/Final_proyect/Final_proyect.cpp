@@ -15,6 +15,10 @@ void decimal_binario(int Numero)
 		decimal_binario(Numero / 2);
 		cout << (Numero % 2);
 	}
+	else
+	{
+		cout << "0";
+	}
 }
 
 int binario_decimal(string binario) 
