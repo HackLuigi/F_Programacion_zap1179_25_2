@@ -43,7 +43,8 @@ int main()
             system("pause");
             system("cls");
             cout << "'Mi nombre? Pues yo me llamo '";
-            cin >> player;
+            cin.ignore();
+            getline(cin, player);
             system("pause");
             system("cls");
             cout << chara << ": 'Ugh, mi ropa ya esta un poco manchada, y parece que voy a llegar un poco tarde al trabajo, pero bueno, cosas que pasan ¿No?'";
@@ -218,7 +219,7 @@ int main()
             system("cls");
             break;
         }
-        cout << "Tienes " << finales << " de 7 finales ¿Te gustaria jugar otra vez?" << endl;
+        cout << "Tienes " << finales << " de 7 finales ¿Te gustaria jugar otra vez? (1 si 0 no)" << endl;
         cin >> otra_vez;
 
     }

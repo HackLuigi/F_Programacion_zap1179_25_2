@@ -1,0 +1,4 @@
+﻿  P-28.cpp
+C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\P-28\P-28\P-28.cpp(102,30): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+MSVCRTD.lib(exe_main.obj) : error LNK2019: símbolo externo main sin resolver al que se hace referencia en la función "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\P-28\x64\Debug\P-28.exe : fatal error LNK1120: 1 externos sin resolver
