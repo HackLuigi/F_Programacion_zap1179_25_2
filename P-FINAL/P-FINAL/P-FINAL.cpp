@@ -76,6 +76,7 @@ int main()
                 switch (decision)
                 {
                 case 3:
+                    finales += 1;
                     cout << chara << ": 'SIII!'" << endl;
                     cout << "Despues de eso, " << chara << " y tu pasan mas tiempo juntos, conociendose y haciendose mas cercanos hasta que un dia se enamoran";
                     system("pause");
@@ -112,7 +113,6 @@ int main()
                     }
                     else if (moneda == 0)
                     {
-
                         finales += 1;
                         cout << "Sale cruz";
                         cout << chara << ": Muy bien! Entonces, preparate para vivir por el resto de tu dolorosa vida conmigo, querido";
@@ -184,6 +184,7 @@ int main()
                 break;
 
             case 2:
+
                 finales += 1;
                 cout << "Justo cuando la chica te iba a pegar, se detiene";
                 system("pause");
@@ -218,6 +219,7 @@ int main()
             break;
         }
         cout << "Tienes " << finales << " de 7 finales ¿Te gustaria jugar otra vez?" << endl;
+        cin >> otra_vez;
 
     }
 }
