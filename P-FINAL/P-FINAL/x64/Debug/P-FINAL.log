@@ -1,3 +1,3 @@
 ﻿  P-FINAL.cpp
-C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\P-FINAL\P-FINAL\P-FINAL.cpp(12,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-  P-FINAL.vcxproj -> C:\Users\ALUMNO\Desktop\1179\F_Programacion_zap1179_25_2\P-FINAL\x64\Debug\P-FINAL.exe
+C:\Users\DELL\Desktop\Tarea\Visual studio\F_Programacion_zap1179_25_2\P-FINAL\P-FINAL\P-FINAL.cpp(12,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  P-FINAL.vcxproj -> C:\Users\DELL\Desktop\Tarea\Visual studio\F_Programacion_zap1179_25_2\P-FINAL\x64\Debug\P-FINAL.exe
